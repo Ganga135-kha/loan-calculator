@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>loan calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<div class="h1">Loan calculator</div>
+			<div class="footer">
+			<form action="" method="post" id="myForm">
+				<label for="amount">Principal(Rs.): </label><input type="text" name="amount" id="amount" autocomplete="off" required><br><br>
+				<label for="time">Time(in years): </label><input type="text" name="time" id="time" autocomplete="off" required><br><br>
+				<label for="rate">Rate(%):       </label><input type="text" name="rate" id="rate" autocomplete="off" required><br><br>
+				<input type="submit" value="Calculate" id="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			
+				<input type="reset" value="Reset" id="reset"><br><br>
+
+				<!-- <button type="button" onclick="sayHello();sayHi();">Click Me</button> -->
+				<!-- <input type="button" id="clear" value="clear" onClick="clear1()">
+				<h1 id="display"></h1>
+ -->
+				<label for="volume">Monthly Payment: </label><input type="text" name="volume" id="vol"><br><br>
+				<label for="volume">Total Payment: </label><input type="text" name="totalPayment" id="TP"><br><br>
+				<label for="volume">Total Interest: </label><input type="text" name="total intrest" id="TI">
+			</form>
+		</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
